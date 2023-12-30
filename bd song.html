@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+	 p {
+            background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha (fourth parameter) for the desired level of transparency */
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }  
+		#video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+	</style>
+</head>
+
+<body>
+<p>"Happy Birthday to the most radiant soul in my life!<br>
+Your presence lights up my world, and I wish you a day as beautiful and special as you are. <br>
+Here's to celebrating the amazing person you are and the joy you bring into my life. Love you!"</p>
+	 <video id="video-background" autoplay muted loop>
+        <source src="../2023_12_20_11_51_IMG_1043.MOV" type="video/mp4">
+        <!-- You can add additional source elements for different video formats -->
+        Your browser does not support the video tag.
+    </video>
+	<article>This is First Song Called"Htet's"</article>
+	<audio id="audio1" controls>
+  <source src="../Htets.m4a" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+	
+	<article>This is Second Song Called"Htet Ko Myat Noe Chin Myar"</article>
+	<audio id="audio2" controls>
+  <source src="../Yay_Khal_Myint_Ngel_Ei_A_Tway_Myar.wav" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+	<article>This is Third Song Called"Happy Birthday"</article>
+	<audio id="audio3" controls>
+  <source src="../Happy_birthday_.wav" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+<script>
+  // Get the first audio element
+  var audio1 = document.getElementById("audio1");
+  // Set the volume for the first audio element
+  audio1.volume = 0.5; // Set the volume to 70%
+
+  // Get the second audio element
+  var audio2 = document.getElementById("audio2");
+  // Set the volume for the second audio element
+  audio2.volume = 0.3; // Set the volume to 30%
+	
+var audio3 = document.getElementById("audio3");
+  // Set the volume for the second audio element
+  audio3.volume = 0.3; // Set the volume to 30%
+</script>
+</body>
+</html>

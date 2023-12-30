@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.video2{align-content: flex-end;
+		justify-content: flex-end;
+		align-items: flex-end;}
+	</style>
+</head>
+
+<body>
+	<video id="video3" width="1200" height="400" controls>
+  <source src="htet vd .mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video><br><br>
+	<video id="video1" width="320" height="240" controls>
+	  <source src="202312260000.mp4" type="video/mp4">
+	  Your browser does not support the video tag. </video>
+<video controls height="240" width="320" class="video2" id="video2" align="left">
+  <source src="2023_12_27_23_25_IMG_1100.MOV" type="video/mp4" align="left">
+    Your browser does not support the video tag.
+</video>
+	
+	<script>
+  // Get the first video element
+  var video1 = document.getElementById("video1");
+  // Set the volume for the first video element
+  video1.volume = 0.3; // Set the volume to 70%
+
+  // Get the second video element
+  var video2 = document.getElementById("video2");
+  // Set the volume for the second video element
+  video2.volume = 0.3; // Set the volume to 30%
+		
+		var video3 = document.getElementById("video3");
+  // Set the volume for the second video element
+  video3.volume = 0.3; // Set the volume to 30%
+</script>
+</body>
+</html>
